@@ -11,7 +11,7 @@ import {FaIconComponent, FaIconLibrary} from "@fortawesome/angular-fontawesome";
 import {fontAwesomeIcons} from "./shared/font-awesome-icons";
 
 @Component({
-  selector: 'app-root',
+  selector: 'whatsapp-root',
   standalone: true,
   imports: [RouterOutlet, NgbAccordionDirective, NgbAccordionHeader, NgbAccordionItem, NgbAccordionButton, NgbAccordionCollapse, NgbAccordionBody, FaIconComponent],
   templateUrl: './app.component.html',
